@@ -11,7 +11,7 @@ public  static void main(String[] args) {
 System.out.println();
 }
  static boolean min(int[] arr, int target) {
-//    if(arr.length ==0) {
+   if(arr.length ==0) {
 //     return false;
 //    }
  for (int element : arr) {
