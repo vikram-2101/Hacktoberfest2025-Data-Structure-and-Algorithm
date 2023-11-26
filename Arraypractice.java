@@ -13,7 +13,7 @@ System.out.println();
  static boolean min(int[] arr, int target) {
    if(arr.length ==0) {
     return false;
-//    }
+  }
  for (int element : arr) {
     if(element == target) {
         return true;
