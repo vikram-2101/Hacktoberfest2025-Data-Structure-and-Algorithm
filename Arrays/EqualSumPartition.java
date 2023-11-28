@@ -13,7 +13,7 @@ public class EqualSumPartition {
     }
      static int totalSum(int[] arr) {
         int totalsum = 0;
-
+/
         
        int n = arr.length;
         for(int i=0; i<n; i++) {
