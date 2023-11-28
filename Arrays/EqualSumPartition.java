@@ -33,7 +33,7 @@ public class EqualSumPartition {
     }
     return false;
     }
-  /   static int makePrefixSumArray(int[] arr) {
+  // static int makePrefixSumArray(int[] arr) {
   //       for(int i=1; i<arr.length; i++) {
   //        arr[i]+=arr[i-1];
   //    }
