@@ -1,4 +1,4 @@
-import java.util.*;
+dimport java.util.*;
 import java.util.Arrays;
 sdd
 public class LinearSearch {
