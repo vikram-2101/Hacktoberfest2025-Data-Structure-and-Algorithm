@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.Arrays;
-
+s
 public class LinearSearch {
     public static void main(String[] args) {
 
