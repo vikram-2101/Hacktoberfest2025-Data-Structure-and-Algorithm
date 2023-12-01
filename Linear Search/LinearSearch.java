@@ -1,4 +1,4 @@
-rsdimport java.util.*;
+frsdimport java.util.*;
 import java.util.Arrays;
 sdd
 public class LinearSearch {
