@@ -1,6 +1,5 @@
-dfrsdimport java.util.*;
-import java.util.Arrays;
-sdd
+import java.util.*;
+import java.util.Arr
 public class LinearSearch {
     public static void main(String[] args) {
 
