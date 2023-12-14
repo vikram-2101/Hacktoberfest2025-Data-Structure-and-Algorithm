@@ -1,4 +1,4 @@
-usjs
+tusjs
     hhesdimport java.util.*;
 public class EqualSumPartition {
     public static void main(String[] args) {
