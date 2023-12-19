@@ -1,4 +1,4 @@
-gdsfsimport java.util.*;
+jgdsfsimport java.util.*;
 //import java.Scanner;
 public class PascalTriangle {
     public static void main(String[] args) {
