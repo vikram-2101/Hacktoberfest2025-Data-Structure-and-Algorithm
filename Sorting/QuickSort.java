@@ -1,4 +1,4 @@
-dgimport java.util.Arrays;
+fdgimport java.util.Arrays;
 import java.util.*;
 
 public class QuickSort{
