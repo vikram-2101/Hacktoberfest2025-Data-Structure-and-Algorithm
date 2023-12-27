@@ -1,4 +1,4 @@
-jghgfgfsimport java.util.*;
+tjghgfgfsimport java.util.*;
 import java.util.Arrays;
 import java.util.Scanner;
 public class TransPoseOfMatrix {
