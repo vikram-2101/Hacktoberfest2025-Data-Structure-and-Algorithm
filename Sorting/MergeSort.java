@@ -1,4 +1,4 @@
-gghgsssimport java.util.Arrays;
+hgghgsssimport java.util.Arrays;
 
 public class MergeSort {
     public static void main(String[] args) {
