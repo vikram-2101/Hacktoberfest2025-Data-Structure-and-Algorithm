@@ -1,4 +1,4 @@
-dimport java.util.*;
+sdimport java.util.*;
 import java.util.ArrayList;
 
 public class SearchInStrings {
