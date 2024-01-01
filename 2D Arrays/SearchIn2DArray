@@ -1,4 +1,4 @@
-jgfimport java.util.*;
+import java.util.*;
 f
 public class SearchIn2DArray {
     public static void main(String[] args) {
