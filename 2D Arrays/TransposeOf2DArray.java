@@ -1,4 +1,4 @@
-fhdfsimport java.util.*;
+kfhdfsimport java.util.*;
 public class vi {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
