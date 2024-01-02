@@ -1,4 +1,4 @@
-fsdimport java.util.*;
+gfsdimport java.util.*;
 public class EqualSumPartition {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
