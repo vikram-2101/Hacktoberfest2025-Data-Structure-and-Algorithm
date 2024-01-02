@@ -1,4 +1,4 @@
-fghimport java.util.*;
+hfghimport java.util.*;
 public class RangeQuery {
     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
