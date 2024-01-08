@@ -1,4 +1,4 @@
-hghimport java.util.*;
+hhimport java.util.*;
 public class Arraypractice {
 public  static void main(String[] args) {
 
