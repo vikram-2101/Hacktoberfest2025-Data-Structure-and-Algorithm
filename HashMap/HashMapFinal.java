@@ -1,4 +1,4 @@
-gkjgfspackage HashMap;
+hgkjgfspackage HashMap;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
