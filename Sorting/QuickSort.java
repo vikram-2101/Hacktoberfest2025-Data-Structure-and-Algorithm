@@ -1,4 +1,4 @@
-hlgimport java.util.Arrays;
+bhlgimport java.util.Arrays;
 import java.util.*;
 
 public class QuickSort{
