@@ -1,4 +1,4 @@
-ggdpackage BigNumber;
+jggdpackage BigNumber;
 
 import java.math.BigInteger;
 
