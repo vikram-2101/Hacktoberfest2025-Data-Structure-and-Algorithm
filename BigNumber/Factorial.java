@@ -1,4 +1,4 @@
-gkhdddpackage BigNumber;
+package BigNumber;
 import java.math.BigInteger;
  class Factorial {
     
