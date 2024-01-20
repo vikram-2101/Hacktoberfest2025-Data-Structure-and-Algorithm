@@ -1,4 +1,4 @@
-jfddpackage LinkedList;
+gjfddpackage LinkedList;
 
 import org.w3c.dom.Node;
 
