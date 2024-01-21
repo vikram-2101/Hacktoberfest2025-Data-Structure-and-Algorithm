@@ -1,4 +1,4 @@
-fpackage LinkedList;
+jfpackage LinkedList;
 
 public class Main {
 
