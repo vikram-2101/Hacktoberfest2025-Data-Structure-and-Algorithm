@@ -1,4 +1,4 @@
-package LinkedList;
+fpackage LinkedList;
 
 public class Main {
 
