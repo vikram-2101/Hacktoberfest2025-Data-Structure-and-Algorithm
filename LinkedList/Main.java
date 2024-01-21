@@ -1,4 +1,4 @@
-jfpackage LinkedList;
+djfpackage LinkedList;
 
 public class Main {
 
