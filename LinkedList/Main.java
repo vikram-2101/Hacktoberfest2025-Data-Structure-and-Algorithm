@@ -1,4 +1,4 @@
-jegghgfpackage LinkedList;
+package LinkedList;
 
 public class Main {
 
