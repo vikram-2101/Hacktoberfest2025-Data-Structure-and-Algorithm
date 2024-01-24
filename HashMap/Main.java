@@ -1,4 +1,4 @@
-jfghhpackage HashMap;
+hjfghhpackage HashMap;
 
 import java.util.HashMap;
 import java.util.HashSet;
