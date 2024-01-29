@@ -1,4 +1,4 @@
-hgpackage Trees.AVL;
+hhgpackage Trees.AVL;
 import java.util.*;
 public class AVL {
     public class Node {
