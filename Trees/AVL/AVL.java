@@ -1,4 +1,4 @@
-package Trees.AVL;
+gpackage Trees.AVL;
 import java.util.*;
 public class AVL {
     public class Node {
