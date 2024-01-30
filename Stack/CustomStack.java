@@ -1,4 +1,4 @@
-hfdpackage Stack;
+ghfdpackage Stack;
 
 public class CustomStack {
  protected int[] data;
