@@ -1,4 +1,4 @@
-package Que;
+fpackage Que;
 
 public class CircularQueue {
 
