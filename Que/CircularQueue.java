@@ -1,4 +1,4 @@
-jdkjgfpackage Que;
+package Que;
 
 public class CircularQueue {
 
