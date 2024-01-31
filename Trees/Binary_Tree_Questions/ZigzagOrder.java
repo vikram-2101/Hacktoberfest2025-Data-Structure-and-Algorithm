@@ -1,4 +1,4 @@
-khgpackage Trees.Binary_Tree_Questions;
+lkhgpackage Trees.Binary_Tree_Questions;
 
 import java.util.*;
 
