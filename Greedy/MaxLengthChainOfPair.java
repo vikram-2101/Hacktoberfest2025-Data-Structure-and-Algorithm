@@ -1,4 +1,4 @@
-package Greedy;
+hpackage Greedy;
 
 import java.util.*;
 
