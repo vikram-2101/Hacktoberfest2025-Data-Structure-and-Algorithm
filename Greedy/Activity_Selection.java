@@ -1,4 +1,4 @@
-fjfpackage Greedy;
+ffjfpackage Greedy;
 
 import java.util.*;
 
