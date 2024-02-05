@@ -1,4 +1,4 @@
-llhjhpackage HashMap;
+lllhjhpackage HashMap;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
