@@ -1,4 +1,4 @@
-hpackage HashMap;
+jhpackage HashMap;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
