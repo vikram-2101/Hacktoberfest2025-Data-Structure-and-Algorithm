@@ -1,4 +1,4 @@
-lkgapackage Stack;
+jlkgapackage Stack;
 
 public class CustomStack {
  protected int[] data;
