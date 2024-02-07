@@ -1,4 +1,4 @@
-gapackage Stack;
+kgapackage Stack;
 
 public class CustomStack {
  protected int[] data;
