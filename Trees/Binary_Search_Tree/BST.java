@@ -1,4 +1,4 @@
-sggpackage Trees.Binary_Search_Tree;
+jsggpackage Trees.Binary_Search_Tree;
 
 class BST {
    public class Node {
