@@ -1,4 +1,4 @@
-package Trees.Binary_Search_Tree;
+gpackage Trees.Binary_Search_Tree;
 
 class BST {
    public class Node {
