@@ -1,4 +1,4 @@
-jghpackage LinkedList;
+kjghpackage LinkedList;
 
 import org.w3c.dom.Node;
 
