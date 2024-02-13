@@ -1,4 +1,4 @@
-hhgpackage LinkedList;
+khhgpackage LinkedList;
 
 import org.w3c.dom.Node;
 
