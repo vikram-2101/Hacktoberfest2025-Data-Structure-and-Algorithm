@@ -1,4 +1,4 @@
-fimport java.util.*;
+hfimport java.util.*;
 //import java.Scanner;
 public class PascalTriangle {
     public static void main(String[] args) {
