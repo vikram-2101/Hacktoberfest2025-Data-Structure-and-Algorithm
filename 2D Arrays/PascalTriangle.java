@@ -1,4 +1,4 @@
-khhfimport java.util.*;
+kkhhfimport java.util.*;
 //import java.Scanner;
 public class PascalTriangle {
     public static void main(String[] args) {
