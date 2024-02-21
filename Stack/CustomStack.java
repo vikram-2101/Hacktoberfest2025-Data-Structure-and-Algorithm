@@ -1,4 +1,4 @@
-package Stack;
+dpackage Stack;
 
 public class CustomStack {
     protected int[] data;
