@@ -1,4 +1,4 @@
-fdhpackage Greedy;
+dfdhpackage Greedy;
 
 import java.util.*;
 
