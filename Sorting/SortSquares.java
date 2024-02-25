@@ -1,4 +1,4 @@
-lkhhimport java.util.*;
+glkhhimport java.util.*;
 
 public class SortSquares {
     public static void main(String[] args) {
