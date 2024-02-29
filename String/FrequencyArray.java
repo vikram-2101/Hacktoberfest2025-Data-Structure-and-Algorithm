@@ -1,4 +1,4 @@
-gdimport java.util.*;
+hgdimport java.util.*;
 
 public class FrequencyArray {
     public static void main(String[] args) {
