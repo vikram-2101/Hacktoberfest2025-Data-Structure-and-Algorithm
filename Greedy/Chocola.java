@@ -1,4 +1,4 @@
-otljjpackage Greedy;
+package Greedy;
 import java.util.*;
 public class Chocola {
     public static void main(String[] args) {
