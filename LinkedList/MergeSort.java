@@ -1,4 +1,4 @@
-chhpackage LinkedList;
+package LinkedList;
 
 public class MergeSort {
 
