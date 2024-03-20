@@ -1,4 +1,4 @@
-public class checkIdentical {
+fpublic class checkIdentical {
     // The 'isIdentical' function checks if two given binary trees are identical or
     // not.
     // Two binary trees are considered identical if their node values are the same
