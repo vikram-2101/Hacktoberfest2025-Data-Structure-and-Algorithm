@@ -1,4 +1,4 @@
-ghpublic class LCA {
+jghpublic class LCA {
     public static void main(String[] args) {
 
     }
