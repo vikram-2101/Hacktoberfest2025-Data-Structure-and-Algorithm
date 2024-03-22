@@ -1,4 +1,4 @@
-hpackage HashMap;
+ghpackage HashMap;
 
 import java.util.*;
 
