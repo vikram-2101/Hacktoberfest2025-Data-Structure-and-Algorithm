@@ -1,4 +1,4 @@
-ejgimport java.util.Arrays;
+dejgimport java.util.Arrays;
 
 public class CyclicSort {
     public static void main(String[] args) {
