@@ -1,4 +1,4 @@
-ukjimport java.util.Arrays;
+uukjimport java.util.Arrays;
 
 public class FirstAndLastPosition {
     private static long[] SearchRange;
