@@ -1,4 +1,4 @@
-public class LCA {
+gpublic class LCA {
     public static void main(String[] args) {
 
     }
