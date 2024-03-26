@@ -1,4 +1,4 @@
-bjhpackage Stack;
+ubjhpackage Stack;
 
 public class StackMain {
 
