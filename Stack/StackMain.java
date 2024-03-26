@@ -1,4 +1,4 @@
-hpackage Stack;
+jhpackage Stack;
 
 public class StackMain {
 
