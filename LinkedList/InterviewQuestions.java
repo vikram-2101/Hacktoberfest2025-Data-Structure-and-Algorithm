@@ -1,4 +1,4 @@
-package LinkedList;
+lpackage LinkedList;
 
 public class InterviewQuestions {
 
