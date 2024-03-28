@@ -1,4 +1,4 @@
-jpackage Trees.Binary_Tree_Questions;
+rjpackage Trees.Binary_Tree_Questions;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
