@@ -1,4 +1,4 @@
-gdpackage Greedy;
+cgdpackage Greedy;
 
 import java.util.*;
 
