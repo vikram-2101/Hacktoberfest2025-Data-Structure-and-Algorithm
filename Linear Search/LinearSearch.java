@@ -3,7 +3,7 @@ import java.util.Arr
 public class LinearSearch {
     public static void main(String[] args) {
 
-    4    // find the target
+      // find the target
 
         // int[] nums = {23, 45, 1,2 ,8 ,19 ,-6 ,-11, 28};
         // int target =3;
