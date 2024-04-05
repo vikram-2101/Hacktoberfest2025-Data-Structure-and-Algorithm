@@ -1,4 +1,4 @@
-hpackage Trees.Binary_Trees;
+hhpackage Trees.Binary_Trees;
 
 import java.util.*;
 
