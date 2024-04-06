@@ -1,4 +1,4 @@
-hfimport java.util.*;
+import java.util.*;
 
 public class RemoveDuplicates {
     public static void main(String[] vikram) {
