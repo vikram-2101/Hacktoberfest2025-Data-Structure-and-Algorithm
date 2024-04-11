@@ -1,4 +1,4 @@
-spublic class DistributeChocolate {
+cspublic class DistributeChocolate {
     public static void main(String[] args) {
         int[] arr = { 5, 3, 1, 4, 2 };
         int m = 3; // number of students in which to distribute
