@@ -1,4 +1,4 @@
-public class isBalanced {
+fpublic class isBalanced {
     public static void main(String[] args) {
 
     }
