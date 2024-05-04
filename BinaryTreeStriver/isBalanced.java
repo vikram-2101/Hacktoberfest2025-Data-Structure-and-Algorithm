@@ -1,4 +1,4 @@
-ccdfpublic class isBalanced {
+public class isBalanced {
     public static void main(String[] args) {
 
     }
