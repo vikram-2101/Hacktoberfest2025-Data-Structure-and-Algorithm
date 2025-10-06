@@ -34,8 +34,91 @@ This repository is participating in Hacktoberfest 2025! We welcome and encourage
 ## 🧩 How to Contribute
 
 1. **Fork this repository**
+
 2. **Clone your fork**:
    ```bash
    git clone https://github.com/<your-username>/data-structure-and-algorithm.git
+   ```
 
-***
+3. **Create a new branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Add your code**:
+   - Create or use the folder for your programming language
+   - Example:
+     ```
+     Java/
+     Python/
+     C++/
+     JavaScript/
+     ```
+   - Add your DSA solution file (e.g., `BinarySearch.java` or `Stack.py`)
+   - Include comments explaining your approach
+
+5. **Commit your changes**:
+   ```bash
+   git add .
+   git commit -m "Added Binary Search in Python"
+   ```
+
+6. **Push your branch**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. **Create a Pull Request (PR)** to the main branch.
+
+---
+
+## 🧠 Example Folder Structure
+
+```
+📂 data-structure-and-algorithm
+ ┣ 📂 Java
+ ┃ ┣ Array.java
+ ┃ ┣ Stack.java
+ ┣ 📂 Python
+ ┃ ┣ BinarySearch.py
+ ┃ ┣ Queue.py
+ ┣ 📂 C++
+ ┃ ┣ LinkedList.cpp
+ ┃ ┗ Graph.cpp
+ ┣ 📄 README.md
+ ┣ 📄 CONTRIBUTING.md
+ ┣ 📄 CODE_OF_CONDUCT.md
+ ┗ 📄 LICENSE
+```
+
+---
+
+## ⚙️ Rules for Contribution
+
+- Add unique solutions only (no duplicate problem-language pairs)
+- Include comments for clarity
+- Write clean, readable code
+- Don't spam — only meaningful PRs will be accepted
+
+---
+
+## 🏷️ Labels
+
+Issues will be categorized using these labels:
+
+- `good first issue` — for beginners
+- `hacktoberfest` — eligible for Hacktoberfest
+- `help wanted` — needs contributors
+
+---
+
+## 📜 License
+
+This repository is licensed under the MIT License — free for anyone to use, modify, and distribute.
+
+---
+
+## 🌟 Acknowledgement
+
+Maintained by **Vikram Kumar**  
+Open for **Hacktoberfest 2025** contributions 🎉
