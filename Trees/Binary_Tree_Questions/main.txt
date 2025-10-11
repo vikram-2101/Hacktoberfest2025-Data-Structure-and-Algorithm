@@ -1,0 +1,8 @@
+BFS = Breadth first search
+when to use?
+1. when answer lies close to the root
+2. when you are asked to search across the level
+
+DFS = depth first search
+when to use?
+when you have to traverse in height;
