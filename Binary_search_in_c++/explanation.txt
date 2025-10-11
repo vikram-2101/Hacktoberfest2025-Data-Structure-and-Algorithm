@@ -1,0 +1,45 @@
+How Binary Search Works 🧐
+Binary search operates on the principle of "divide and conquer." For it to work, the collection of elements (like an array) must be sorted first.
+
+Here's the step-by-step process:
+
+Find the Middle: Start by examining the middle element of the sorted array.
+
+Compare:
+
+If the middle element is the target value, the search is complete.
+
+If the target value is less than the middle element, the target must be in the left half of the array. You can discard the entire right half.
+
+If the target value is greater than the middle element, the target must be in the right half. You can discard the entire left half.
+
+Repeat: Continue this process of halving the remaining search space and comparing until the target value is found or the search space is empty (meaning the value isn't in the array).
+
+Of course. Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing the search interval in half. Its time complexity is O(logn).
+
+Time Complexity Analysis ⏳
+The time complexity of binary search is a key reason for its popularity.
+
+Worst-Case and Average-Case Time Complexity: O(logn)
+This is because the algorithm halves the input size with each step. If you start with an array of size n, after one comparison, you are left with n/2 elements. After the second, n/4, and so on. The number of steps (k) it takes to get down to a single element can be expressed as:
+
+n/2 
+k
+ =1
+
+Solving for k, we get:
+
+n=2 
+k
+ ⟹k=log 
+2
+​
+ n
+
+Thus, the number of operations grows logarithmically with the size of the input, making it extremely fast for large datasets compared to a linear search (O(n)).
+
+Best-Case Time Complexity: O(1)
+This occurs when the target element happens to be the middle element of the array on the very first check.
+
+Space Complexity: O(1)
+For the iterative implementation shown above, the space complexity is constant because it only uses a few variables (left, right, mid) to keep track of the search space, regardless of the array's size. A recursive implementation would have a space complexity of O(logn) due to the call stack.
