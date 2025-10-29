@@ -37,7 +37,7 @@ This repository is participating in Hacktoberfest 2025! We welcome and encourage
 
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/<your-username>/data-structure-and-algorithm.git
+   git clone https://github.com/<your-username>/Hacktoberfest2025-Data-Structure-and-Algorithm
    ```
 
 3. **Create a new branch**:
