@@ -1,38 +1,59 @@
 import java.util.*;
-import java.util.Arrays;
-import java.util.Scanner;
+
+/*
+Program: Transpose of a Matrix
+--------------------------------
+This program takes a 2D matrix as input and prints both
+the original and its transpose (rows become columns).
+*/
+
 public class TransPoseOfMatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no. of rows and columns: ");
+
+        // Input for rows and columns
+        System.out.print("Enter number of rows: ");
         int r = sc.nextInt();
+
+        System.out.print("Enter number of columns: ");
         int c = sc.nextInt();
+
         int[][] matrix = new int[r][c];
-        int totalelement = r * c;
-        System.out.println("Enter " + totalelement + " values: ");
+        int totalElements = r * c;
+
+        // Input matrix elements
+        System.out.println("\nEnter " + totalElements + " elements:");
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                System.out.print("Enter the value for element at position [" + i + "][" + j + "]: ");
-
+                System.out.print("Enter value at position [" + i + "][" + j + "]: ");
                 matrix[i][j] = sc.nextInt();
             }
         }
-        System.out.println("Input array is " );
-         printMatrix(matrix);
-        int[][] ans = findtranspose(matrix, r, c);
-       System.out.println(Arrays.toString(ans));
-        //System.out.println("transposed matrix");
-     //System.out.println(findtranspose(matrix, r, c));
-   
+
+        // Print original matrix
+        System.out.println("\nOriginal Matrix:");
+        printMatrix(matrix);
+
+        // Find and print transpose
+        int[][] transposed = findTranspose(matrix, r, c);
+        System.out.println("\nTransposed Matrix:");
+        printMatrix(transposed);
+
+        sc.close();
     }
-     static void printMatrix(int[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                System.out.println(matrix[i][j] + " ");
+
+    // Function to print a matrix
+    static void printMatrix(int[][] matrix) {
+        for (int[] row : matrix) {
+            for (int val : row) {
+                System.out.print(val + " ");
+            }
+            System.out.println();
         }
     }
-     }
-    static int[][] findtranspose(int[][] matrix, int r, int c) {
+
+    // Function to find transpose of a matrix
+    static int[][] findTranspose(int[][] matrix, int r, int c) {
         int[][] ans = new int[c][r];
         for (int i = 0; i < c; i++) {
             for (int j = 0; j < r; j++) {
@@ -41,13 +62,4 @@ public class TransPoseOfMatrix {
         }
         return ans;
     }
-    // static void findtranspose(int[][] matrix, int r, int c) {
-    //     for(int i = 0; i < r; i++) {
-    //         for(int j = 0; j < c; j++) {
-    //             int temp = matrix[i][j];
-    //             matrix[i][j] = matrix[j][i];
-    //             matrix[j][i] = temp;
-    //         }
-    // }
 }
-    //}

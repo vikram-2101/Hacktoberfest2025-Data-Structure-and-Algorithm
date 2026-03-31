@@ -1,43 +1,49 @@
-hrsssstusjs
-    hhesdimport java.util.*;
+import java.util.*;
+
 public class EqualSumPartition {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Enter the size of the array: ");
         int n = sc.nextInt();
-        int[] arr = new int[n];
-        System.out.print("Enter "+n+" elements");
-        for(int i=0; i<n; i++) {
-         arr[i] = sc.nextInt();
-        }
-       System.out.println(equalsumpartition(arr));
-    }
-     static int totalSum(int[] arr) {
-        int totalsum = 0;
 
-        
-       int n = arr.length;
-        for(int i=0; i<n; i++) {
-         totalsum+= arr[i];
+        int[] arr = new int[n];
+        System.out.println("Enter " + n + " elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
         }
-      return totalsum;
+
+        if (hasEqualSumPartition(arr)) {
+            System.out.println("Yes, the array can be divided into two parts with equal sum.");
+        } else {
+            System.out.println("No, the array cannot be divided into two parts with equal sum.");
+        }
+
+        sc.close();
     }
-    static boolean equalsumpartition(int[] arr) {
-    int totalsum = totalSum(arr);
-    int prefsum=0;
-    for (int i=0; i<arr.length; i++) {
-      prefsum+= arr[i];
-      int suffixsum=totalsum-prefsum;
-      if( suffixsum==prefsum) {
-        return true;
-      }
+
+    // Function to calculate the total sum of array elements
+    static int totalSum(int[] arr) {
+        int totalSum = 0;
+        for (int num : arr) {
+            totalSum += num;
+        }
+        return totalSum;
     }
-    return false;
+
+    // Function to check if the array can be divided into two equal sum parts
+    static boolean hasEqualSumPartition(int[] arr) {
+        int totalSum = totalSum(arr);
+        int prefixSum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            prefixSum += arr[i];
+            int suffixSum = totalSum - prefixSum;
+
+            if (prefixSum == suffixSum) {
+                return true;
+            }
+        }
+        return false;
     }
-  // static int makePrefixSumArray(int[] arr) {
-  //       for(int i=1; i<arr.length; i++) {
-  //        arr[i]+=arr[i-1];
-  //    }
-  //  return arr;
-  //       }
 }
